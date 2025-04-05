@@ -4,6 +4,7 @@ This project implements a decentralized prediction market platform on the Lukso 
 
 ## ToDo
 
+- test/deploy contracts
 - fix dia price feed api on frontend or read from contract
 - the create a market modal needs some revamping. the Market description field should be replaced with a radio select with the options 'higher' and 'lower' (the market description can be calculated and shown at the bottom with the submitted data (exp. "price pair < or > strike price") the select end time should be the only time selection field dispalyed and the resolution time should automatically happen some time / a few minutes after the market end time (make sure it works with the price updating frequency found/used elsewhere in the frontend/contracts)
 - frontend should display the created markets (if any) below the price feeds (with relevant market data)
